@@ -17,7 +17,7 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="environment" value="dev" />
 		<classes>
-			<class name="testcases.RestAssured_TestCases_PL1" />
+			<class name="testcases.RestAssured_TestCases_PL2" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
