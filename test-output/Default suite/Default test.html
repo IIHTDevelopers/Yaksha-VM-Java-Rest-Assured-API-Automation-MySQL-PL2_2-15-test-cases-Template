@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 28 18:28:38 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>30 seconds (30229 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.getDischargedPatientsTest()'><b>getDischargedPatientsTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: 1. Send a GET request to get discharged patients list
+2. Validate that PatientVisitId and PatientAdmissionId are unique
+3. Verify the response status code is 200.</td>
+<td></td>
+<td>1</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.getPatientConsumptionInfoByPatientIdAndVisitIdTest()'><b>getPatientConsumptionInfoByPatientIdAndVisitIdTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: 1. Send a GET request to get patient consumption information
+2. Validate that PatientId is the same in response
+3. Verify the response status code is 200.</td>
+<td></td>
+<td>1</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.getAllStocksTest()'><b>getAllStocksTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: 1. Send a GET request to get list of stocks
+2. Validate that all the ItemId, ItemName, and GenericName are not null.
+3. Verify the response status code is 200.</td>
+<td></td>
+<td>12</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.getConsumptionsListOfAPatientByIdTest()'><b>getConsumptionsListOfAPatientByIdTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: 1. Send a GET request to get consumptions list of a patient
+2. Validate that PatientConsumptionId is unique
+3. Verify the response status code is 200.</td>
+<td></td>
+<td>0</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.getReturnConsumptionsListTest()'><b>getReturnConsumptionsListTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: 1. Send a GET request to get return consumptions list
+2. Validate that ConsumptionReturnReceiptNo is unique
+3. Verify the response status code is 200.</td>
+<td></td>
+<td>1</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.getBillingSchemeBySchemeIdTest()'><b>getBillingSchemeBySchemeIdTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: 1. Send a GET request to get billing scheme by scheme ID
+2. Validate that SchemeId is the same in response
+3. Verify the response status code is 200.</td>
+<td></td>
+<td>0</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.validateFilmTypesApiResponseTest()'><b>validateFilmTypesApiResponseTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: Send a get request to get all the Film Types
+Validate the Status is 'OK'
+Validate the Status code is 200
+Validate the FilmTypeId is not null and unique
+Validate the FilmType is not null</td>
+<td></td>
+<td>0</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.validateImagingItemsApiResponseTest()'><b>validateImagingItemsApiResponseTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: Send a get request with fromDate, toDate, orderStatus, reportOrderStatus, and typeList parameters to get requisitions
+Validate the createdOn date is not null
+Validate the OrderStatus matches with the provided orderStatus
+Validate the Status is 'OK'
+Validate the Status code is 200</td>
+<td></td>
+<td>2</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.getListOfDoctorsTest()'><b>getListOfDoctorsTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: 1. Send GET request to get the list of doctors with data such as EmployeeId, FirstName & LastName.
+2. Verify the response status code is 200 OK
+3. Validate the response contains 'Status' as 'OK'
+4. Retrieve and validate the EmployeeId, FirstName & LastName from the response</td>
+<td></td>
+<td>0</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.getBillingSummaryByPatientIdTest()'><b>getBillingSummaryByPatientIdTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: 1. Send a GET request to get billing summary by patient ID
+2. Validate that PatientId is the same in response
+3. Verify the response status code is 200.</td>
+<td></td>
+<td>0</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.validateImagingReportsWithStatusAndDateRangeTest()'><b>validateImagingReportsWithStatusAndDateRangeTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: Send a get request with the fromDate, toDate, reportOrderStatus, and typeList parameters to get imaging reports
+Validate the Status is 'OK'
+Validate the Status code is 200
+Validate the CreatedOn date is within the provided date range</td>
+<td></td>
+<td>0</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.getRequisitionByDateRangeTest()'><b>getRequisitionByDateRangeTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: 1. Send a GET request to get requisition list
+2. Validate that all the RequisitionIds are unique.
+3. Verify the response status code is 200.</td>
+<td></td>
+<td>0</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.getPatientConsumptionsTest()'><b>getPatientConsumptionsTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: 1. Send a GET request to get patient consumptions list
+2. Validate that PatientId and HospitalNo are not null.
+3. Verify the response status code is 200.</td>
+<td></td>
+<td>0</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.getMainStoreTest()'><b>getMainStoreTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: 1. Send a GET request to get main store details
+2. Validate that StoreId is not null.
+3. Verify the response status code is 200.</td>
+<td></td>
+<td>1</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.getInPatientProvisionalItemsTest()'><b>getInPatientProvisionalItemsTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: 1. Send GET request to get the list of In Patient Provisional Items with data such as module, patientVisitId & patientId.
+2. Verify the response status code is 200 OK
+3. Validate the response contains 'Status' as 'OK'
+4. Retrieve and validate the BillingTransactionItemId, ServiceDepartmentName & ItemName from the response</td>
+<td></td>
+<td>1</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+<tr>
+<td title='testcases.RestAssured_TestCases_PL2.getAdmittedPatientDataTest()'><b>getAdmittedPatientDataTest</b><br>Test class: testcases.RestAssured_TestCases_PL2<br>Test method: Send GET request to get the list of admitted patients data with admission status as admitted
+Validate the response status code is 200 OK
+Validate the response contains 'Status' as 'OK'
+Retrieve and validate the VisitCode, PatientVisitId & PatientId from the response</td>
+<td></td>
+<td>1</td>
+<td>testcases.RestAssured_TestCases_PL2@4b8d604b</td></tr>
+</table><p>
+</body>
+</html>

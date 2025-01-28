@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-28T18:28:38 IST" name="Default suite" finished-at="2025-01-28T18:29:08 IST" duration-ms="30229">
+    <groups>
+      <group name="PL2">
+        <method signature="RestAssured_TestCases_PL2.getAllStocksTest()[pri:1, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="getAllStocksTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.getMainStoreTest()[pri:2, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="getMainStoreTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.getRequisitionByDateRangeTest()[pri:3, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="getRequisitionByDateRangeTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.getPatientConsumptionsTest()[pri:4, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="getPatientConsumptionsTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.getPatientConsumptionInfoByPatientIdAndVisitIdTest()[pri:5, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="getPatientConsumptionInfoByPatientIdAndVisitIdTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.getBillingSchemeBySchemeIdTest()[pri:6, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="getBillingSchemeBySchemeIdTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.getBillingSummaryByPatientIdTest()[pri:7, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="getBillingSummaryByPatientIdTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.getConsumptionsListOfAPatientByIdTest()[pri:8, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="getConsumptionsListOfAPatientByIdTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.getReturnConsumptionsListTest()[pri:9, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="getReturnConsumptionsListTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.getDischargedPatientsTest()[pri:10, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="getDischargedPatientsTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.validateFilmTypesApiResponseTest()[pri:11, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="validateFilmTypesApiResponseTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.validateImagingItemsApiResponseTest()[pri:12, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="validateImagingItemsApiResponseTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.validateImagingReportsWithStatusAndDateRangeTest()[pri:13, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="validateImagingReportsWithStatusAndDateRangeTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.getAdmittedPatientDataTest()[pri:14, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="getAdmittedPatientDataTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.getInPatientProvisionalItemsTest()[pri:15, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="getInPatientProvisionalItemsTest" class="testcases.RestAssured_TestCases_PL2"/>
+        <method signature="RestAssured_TestCases_PL2.getListOfDoctorsTest()[pri:16, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" name="getListOfDoctorsTest" class="testcases.RestAssured_TestCases_PL2"/>
+      </group> <!-- PL2 -->
+    </groups>
+    <test started-at="2025-01-28T18:28:38 IST" name="Default test" finished-at="2025-01-28T18:29:08 IST" duration-ms="30229">
+      <class name="testcases.RestAssured_TestCases_PL2">
+        <test-method signature="getAllStocksTest()[pri:1, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:28:38 IST" name="getAllStocksTest" description="1. Send a GET request to get list of stocks
+2. Validate that all the ItemId, ItemName, and GenericName are not null.
+3. Verify the response status code is 200." finished-at="2025-01-28T18:28:51 IST" duration-ms="12627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllStocksTest -->
+        <test-method signature="getMainStoreTest()[pri:2, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:28:51 IST" name="getMainStoreTest" description="1. Send a GET request to get main store details
+2. Validate that StoreId is not null.
+3. Verify the response status code is 200." finished-at="2025-01-28T18:28:52 IST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMainStoreTest -->
+        <test-method signature="getRequisitionByDateRangeTest()[pri:3, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:28:52 IST" name="getRequisitionByDateRangeTest" description="1. Send a GET request to get requisition list
+2. Validate that all the RequisitionIds are unique.
+3. Verify the response status code is 200." finished-at="2025-01-28T18:28:53 IST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequisitionByDateRangeTest -->
+        <test-method signature="getPatientConsumptionsTest()[pri:4, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:28:53 IST" name="getPatientConsumptionsTest" description="1. Send a GET request to get patient consumptions list
+2. Validate that PatientId and HospitalNo are not null.
+3. Verify the response status code is 200." finished-at="2025-01-28T18:28:54 IST" duration-ms="925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPatientConsumptionsTest -->
+        <test-method signature="getPatientConsumptionInfoByPatientIdAndVisitIdTest()[pri:5, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:28:54 IST" name="getPatientConsumptionInfoByPatientIdAndVisitIdTest" description="1. Send a GET request to get patient consumption information
+2. Validate that PatientId is the same in response
+3. Verify the response status code is 200." finished-at="2025-01-28T18:28:55 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPatientConsumptionInfoByPatientIdAndVisitIdTest -->
+        <test-method signature="getBillingSchemeBySchemeIdTest()[pri:6, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:28:55 IST" name="getBillingSchemeBySchemeIdTest" description="1. Send a GET request to get billing scheme by scheme ID
+2. Validate that SchemeId is the same in response
+3. Verify the response status code is 200." finished-at="2025-01-28T18:28:56 IST" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBillingSchemeBySchemeIdTest -->
+        <test-method signature="getBillingSummaryByPatientIdTest()[pri:7, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:28:56 IST" name="getBillingSummaryByPatientIdTest" description="1. Send a GET request to get billing summary by patient ID
+2. Validate that PatientId is the same in response
+3. Verify the response status code is 200." finished-at="2025-01-28T18:28:57 IST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBillingSummaryByPatientIdTest -->
+        <test-method signature="getConsumptionsListOfAPatientByIdTest()[pri:8, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:28:57 IST" name="getConsumptionsListOfAPatientByIdTest" description="1. Send a GET request to get consumptions list of a patient
+2. Validate that PatientConsumptionId is unique
+3. Verify the response status code is 200." finished-at="2025-01-28T18:28:58 IST" duration-ms="866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConsumptionsListOfAPatientByIdTest -->
+        <test-method signature="getReturnConsumptionsListTest()[pri:9, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:28:58 IST" name="getReturnConsumptionsListTest" description="1. Send a GET request to get return consumptions list
+2. Validate that ConsumptionReturnReceiptNo is unique
+3. Verify the response status code is 200." finished-at="2025-01-28T18:29:00 IST" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReturnConsumptionsListTest -->
+        <test-method signature="getDischargedPatientsTest()[pri:10, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:29:00 IST" name="getDischargedPatientsTest" description="1. Send a GET request to get discharged patients list
+2. Validate that PatientVisitId and PatientAdmissionId are unique
+3. Verify the response status code is 200." finished-at="2025-01-28T18:29:01 IST" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDischargedPatientsTest -->
+        <test-method signature="validateFilmTypesApiResponseTest()[pri:11, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:29:01 IST" name="validateFilmTypesApiResponseTest" description="Send a get request to get all the Film Types
+Validate the Status is &#039;OK&#039;
+Validate the Status code is 200
+Validate the FilmTypeId is not null and unique
+Validate the FilmType is not null" finished-at="2025-01-28T18:29:02 IST" duration-ms="987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFilmTypesApiResponseTest -->
+        <test-method signature="validateImagingItemsApiResponseTest()[pri:12, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:29:02 IST" name="validateImagingItemsApiResponseTest" description="Send a get request with fromDate, toDate, orderStatus, reportOrderStatus, and typeList parameters to get requisitions
+Validate the createdOn date is not null
+Validate the OrderStatus matches with the provided orderStatus
+Validate the Status is &#039;OK&#039;
+Validate the Status code is 200" finished-at="2025-01-28T18:29:04 IST" duration-ms="2150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImagingItemsApiResponseTest -->
+        <test-method signature="validateImagingReportsWithStatusAndDateRangeTest()[pri:13, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:29:04 IST" name="validateImagingReportsWithStatusAndDateRangeTest" description="Send a get request with the fromDate, toDate, reportOrderStatus, and typeList parameters to get imaging reports
+Validate the Status is &#039;OK&#039;
+Validate the Status code is 200
+Validate the CreatedOn date is within the provided date range" finished-at="2025-01-28T18:29:05 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImagingReportsWithStatusAndDateRangeTest -->
+        <test-method signature="getAdmittedPatientDataTest()[pri:14, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:29:05 IST" name="getAdmittedPatientDataTest" description="Send GET request to get the list of admitted patients data with admission status as admitted
+Validate the response status code is 200 OK
+Validate the response contains &#039;Status&#039; as &#039;OK&#039;
+Retrieve and validate the VisitCode, PatientVisitId &amp; PatientId from the response" finished-at="2025-01-28T18:29:06 IST" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAdmittedPatientDataTest -->
+        <test-method signature="getInPatientProvisionalItemsTest()[pri:15, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:29:06 IST" name="getInPatientProvisionalItemsTest" description="1. Send GET request to get the list of In Patient Provisional Items with data such as module, patientVisitId &amp; patientId.
+2. Verify the response status code is 200 OK
+3. Validate the response contains &#039;Status&#039; as &#039;OK&#039;
+4. Retrieve and validate the BillingTransactionItemId, ServiceDepartmentName &amp; ItemName from the response" finished-at="2025-01-28T18:29:07 IST" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInPatientProvisionalItemsTest -->
+        <test-method signature="getListOfDoctorsTest()[pri:16, instance:testcases.RestAssured_TestCases_PL2@4b8d604b]" started-at="2025-01-28T18:29:07 IST" name="getListOfDoctorsTest" description="1. Send GET request to get the list of doctors with data such as EmployeeId, FirstName &amp; LastName.
+2. Verify the response status code is 200 OK
+3. Validate the response contains &#039;Status&#039; as &#039;OK&#039;
+4. Retrieve and validate the EmployeeId, FirstName &amp; LastName from the response" finished-at="2025-01-28T18:29:08 IST" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfDoctorsTest -->
+      </class> <!-- testcases.RestAssured_TestCases_PL2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
