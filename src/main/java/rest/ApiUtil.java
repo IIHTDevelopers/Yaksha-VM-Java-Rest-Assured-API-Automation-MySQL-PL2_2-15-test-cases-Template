@@ -353,29 +353,4 @@ public class ApiUtil {
 		// Return a CustomResponse object
 		return new CustomResponse(response, statusCode, status, results);
 	}
-
-	/**
-	 * @Test16 This method retrieves a list of doctors based on the provided
-	 *         criteria.
-	 * 
-	 * @param endpoint - The API endpoint to fetch the doctors list.
-	 * @param body     - Optional map containing parameters for filtering the
-	 *                 doctors list.
-	 * @description This method builds a GET request with the necessary
-	 *              authorization and content-type headers. If a body is provided,
-	 *              it is sent as a JSON payload; otherwise, the request is executed
-	 *              without a body. The method extracts and returns the API response
-	 *              containing the list of doctors.
-	 * @return CustomResponse - The API response with the list of doctors.
-	 */
-	public CustomResponse getDoctorsList(String endpoint, Map<String, String> body) {
-		Response response = null;
-
-		int statusCode = 0;
-		String status = null;
-		List<Map<String, Object>> results = null;
-
-		// Return a CustomResponse object
-		return new CustomResponse(response, statusCode, status, results);
-	}
 }
